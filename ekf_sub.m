@@ -55,7 +55,7 @@ for n = t
 
 end
 
-plot(mu_t_x, mu_t_y,"b");                   % 軌跡の表示
+plot(mu_t_x, mu_t_y,"b");               % 軌跡の表示
 axis([-0.5,1.5,-0.5,1.5],"square");     % 座標系の表示
 hold on;                                % この表示を保持したまま追加
 plot(rx, ry,'r');                       % 軌跡の表示
